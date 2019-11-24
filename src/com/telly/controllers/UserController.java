@@ -5,5 +5,10 @@ public class UserController {
 	public String showLogout() {
 		return "loggedout";
 	}
+@RequestMapping("/loggedout")
+	public String showLogout() {
+		return "loggedout";
+	}
+
 
 }
